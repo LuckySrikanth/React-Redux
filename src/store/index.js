@@ -56,7 +56,7 @@ const counterSlice = createSlice({
 
 //     return  state;
 // } This code in redux method, and excuting code in reduxtool
-// in redux we use createStore but tools, we use configureStore
+// in redux we use createStore but tools, we use createSlice
 
 const initialAuthState = {
     isAuthenticated : false
